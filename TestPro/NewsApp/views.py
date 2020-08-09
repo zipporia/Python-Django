@@ -25,6 +25,16 @@ def NewsP(request):
     return render(request, 'new.html', context)
 
 
+def NewsDate(request, year):
+
+    article_list = News.objects.filter(pub_date_year=year)
+
+    context = {
+        'year': year,
+        'article_list': article_list
+    }
+
+    return render(request, 'newsdate.html', context)
 
 
 def Contact(request):
