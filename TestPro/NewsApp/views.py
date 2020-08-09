@@ -27,7 +27,7 @@ def NewsP(request):
 
 def NewsDate(request, year):
 
-    article_list = News.objects.filter(pub_date_year=year)
+    article_list = News.objects.filter(pub_date__year=year)
 
     context = {
         'year': year,
