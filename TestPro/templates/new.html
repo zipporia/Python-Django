@@ -4,20 +4,8 @@
 
 <h1>This is News</h1>
 
-{{list}}
-<br><br>
-{% for data in list %}
-
-<ul>
-    <li>{{data}}</li>
-</ul>
-
-{% endfor %}
-
-{% if my_num == 50 %}
-<h1>Condition is true</h1>
-{% else %}
-<h1>False</h1>
-{% endif %}
+<h2>{{data.author}}</h2>
+<h3>{{data.title}}</h3>
+<p>{{data.description}}</p>
 
 {% endblock%}
