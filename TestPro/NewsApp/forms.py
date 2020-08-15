@@ -13,12 +13,12 @@ class RegistrationForm(forms.Form):
                                    'placeholder': 'Enter Password'
                                }))
     email = forms.CharField(max_length=100,
-                               widget=forms.TextInput(attrs={
+                               widget=forms.EmailInput(attrs={
                                    'class': 'form-control',
                                    'placeholder': 'Enter Email'
                                }))
     phone = forms.CharField(max_length=100,
-                                widget=forms.TextInput(attrs={
+                                widget=forms.NumberInput(attrs={
                                    'class': 'form-control',
                                    'placeholder': 'Enter Phone'
                                }))
