@@ -28,7 +28,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -110,10 +110,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="723" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597462974775" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1597463164775">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1597501244754">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597463164775" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597501244754" />
     <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1597461718725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

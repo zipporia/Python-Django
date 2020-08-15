@@ -14,23 +14,23 @@
         <form>
           <div class="form-group">
             <label>Username</label>
-            <input type="text" class="form-control" id="username" placeholder="Enter Username">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            {{form.username}}
           </div>
 
           <div class="form-group">
             <label>Password</label>
-            <input type="password" class="form-control" id="password" placeholder="Enter Password">
+              {{form.password}}
           </div>
 
           <div class="form-group">
             <label>Email</label>
-            <input type="text" class="form-control" id="email" placeholder="Enter Email">
+            {{form.email}}
           </div>
 
           <div class="form-group">
             <label>Phone</label>
-            <input type="text" class="form-control" id="phone" placeholder="Enter Phone">
+            {{form.phone}}
+
           </div>
 
           <button type="submit" class="btn btn-primary">Submit</button>
