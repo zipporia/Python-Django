@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -32,6 +32,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pc11\Documents\GitHub\Python-Django\TestPro\NewsApp" />
       <recent name="C:\Users\Pc11\Documents\GitHub\Python-Django\TestPro\static\css" />
     </key>
   </component>
