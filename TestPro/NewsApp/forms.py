@@ -35,3 +35,22 @@ class RegistrationModal(forms.ModelForm):
             'email',
             'phone'
         ]
+
+        widgets = {
+            'username': forms.TextInput(attrs={
+                                        'class':'form-control',
+                                        'placeholder':'Username'
+                                        }),
+            'password': forms.PasswordInput(attrs={
+                                        'class': 'form-control',
+                                        'placeholder': 'Password'
+                                        }),
+            'email': forms.EmailInput(attrs={
+                                        'class': 'form-control',
+                                        'placeholder': 'E-mail'
+                                        }),
+            'phone': forms.NumberInput(attrs={
+                                        'class': 'form-control',
+                                        'placeholder': 'Phone'
+                                        }),
+        }
