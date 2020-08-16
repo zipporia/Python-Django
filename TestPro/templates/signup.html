@@ -6,6 +6,13 @@
 <div class="container">
     <h1>Signup Form</h1>
 
+    <div class="messages">
+        {% for msg in messages %}
+            <div class="alert alert-{{msg.level_tag}}" role="alert">
+                {{msg.message}}
+            </div>
+        {% endfor %}
+    </div>
 
 
     <form action="{% url 'addUser' %}" method="post">

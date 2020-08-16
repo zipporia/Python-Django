@@ -3,6 +3,7 @@ from django.shortcuts import HttpResponse
 from .models import News
 from .forms import RegistrationForm
 from .models import RegistrationData
+from django.contrib import messages
 
 # Create your views here.
 
@@ -61,4 +62,5 @@ def addUser(request):
                                     email=form.cleaned_data['email'],
                                     phone=form.cleaned_data['phone'])
         myregister.save()
-    return redirect('home')
+        messages.add_message(request, messages.SUCCESS, "You have signup successfully")
+    return redirect('register')

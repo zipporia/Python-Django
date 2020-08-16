@@ -28,7 +28,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -82,10 +82,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="315" y="0" key="#HTML/0.0.1366.728@0.0.1366.728" timestamp="1597500534426" />
-    <state x="521" y="0" key="#Notifications" timestamp="1597462919136">
+    <state x="521" y="0" key="#Notifications" timestamp="1597531028695">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="521" y="0" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1597462919136" />
+    <state x="521" y="0" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1597531028695" />
     <state x="791" y="158" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596942385810">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -110,13 +110,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="723" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597462974775" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1597501244754">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1597531424409">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597501244754" />
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1597461718725">
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597531424409" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1597531018389">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597461718725" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1597531018389" />
   </component>
 </project>
