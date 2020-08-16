@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import NewsP, Home, Contact, NewsDate, register, addUser, modelform
+from .views import NewsP, Home, Contact, NewsDate, register, addUser, modelform, addModalForm
 
 urlpatterns = [
     path('', Home, name='home'),
@@ -8,5 +8,6 @@ urlpatterns = [
     path('contact/', Contact, name='contact'),
     path('signup/', register, name='register'),
     path('addUser/', addUser, name='addUser'),
-    path('modalform', modelform, name="modalform")
+    path('modalform', modelform, name="form"),
+    path('addmodalform/', addModalForm, name="modalform"),
 ]
