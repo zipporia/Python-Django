@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.shortcuts import HttpResponse
 from .models import News
-from .forms import RegistrationForm
+from .forms import RegistrationForm, RegistrationModal
 from .models import RegistrationData
 from django.contrib import messages
 
@@ -64,3 +64,14 @@ def addUser(request):
         myregister.save()
         messages.add_message(request, messages.SUCCESS, "You have signup successfully")
     return redirect('register')
+
+
+def modelform(request):
+
+    context = {
+        "modalform":RegistrationModal
+    }
+
+    return render(request, 'modalform.html', context)
+
+
